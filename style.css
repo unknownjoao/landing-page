@@ -103,6 +103,7 @@ body {
 .img-coffe {
     display: flex;
     justify-content: center;
+    margin-top: 140px;
 }
 
 .img-coffe img {
@@ -129,7 +130,7 @@ body {
 
 /* Responsividade */
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1024px) {
     .media-desktop {
         display: none;
     }
@@ -169,7 +170,7 @@ body {
         padding: 0 50px;
     }
 
-    .header-mobile button{
+    .header-mobile button {
         background: transparent;
         border: none;
     }
@@ -219,11 +220,23 @@ body {
         display: flex;
         justify-content: center;
         margin-top: 50px;
-        
+
     }
 
     .img-coffe-mobile img {
         width: 100%;
     }
 
+
+    .blur-mobile {
+        position: relative;
+    }
+
+    .blur-mobile img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
 }
