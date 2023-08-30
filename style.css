@@ -32,7 +32,7 @@ header {
     position: relative;
     top: 0;
     transform: translateX(-50%);
-    width: 1020px;
+    width: 70%;
 }
 
 nav {
@@ -65,7 +65,7 @@ header button {
     font-weight: bold;
     padding: 11px 38px;
     text-transform: uppercase;
-    transition: all 0.3s ease;
+    transition: all 0.3s;
 }
 
 header button:hover {
@@ -101,25 +101,41 @@ header button:hover {
     text-shadow: 0px 0px 7px #8257E5;
 }
 
+.img-coffe {
+    display: flex;
+    justify-content: center;
+}
+
 .img-coffe img {
-    height: 540px;
-    left: 50%;
-    position: relative;
-    top: 0;
-    transform: translateX(-50%);
+    display: flex;
+    height: 30rem;
 }
 
 .blur-1 {
+    display: flex;
     bottom: 0;
-    height: 500px;
+    height: 700px;
     left: 0;
     position: absolute;
     z-index: -1;
 }
 
 .blur-2 {
+    display: flex;
     position: absolute;
     right: 0;
     top: 0;
     z-index: -1;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 930px) {
+    .media-desktop {
+
+
+        body {
+            background-color: var(--backgrond);
+        }
+    }
 }
