@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- Tela Desktop -->
-  <div class="media-desktop">
+  <div class="media-desktop" >
     <header class="header-desktop">
       <img src="assets/logo-desktop.svg" alt="logo rocketseat">
       <nav>
@@ -38,10 +38,10 @@
   </div>
 
   <!-- Tela Mobile -->
-  <div class="media-mobile">
+  <div class="media-mobile" id="media-mobile">
     <header class="header-mobile">
       <img src="assets/logo-mobile.svg" alt="logo rocketseat mobile">
-      <button>
+      <button id="menu-mobile-button-open">
         <img src="assets/menu-buguer-open.svg" alt="button menu">
       </button>
     </header>
@@ -58,10 +58,28 @@
     <div class="img-coffe-mobile">
       <img src="assets/rocket-coffe.png" alt="rocket-coffe.png">
     </div>
-
     <div class="blur-mobile">
       <img src="assets/blur-mobile.png" alt="blur background mobile">
     </div>
   </div>
+  <div class="menu-mobile" id="menu-mobile-overlay">
+    <header class="header-mobile">
+      <img src="assets/logo-mobile.svg" alt="logo rocketseat mobile">
+      <button id="menu-mobile-button-close">
+        <img src="assets/menu-buguer-close.svg" alt="button menu">
+      </button>
+    </header>
+    <div class="nav-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Recompensas</a></li>
+        <li><a href="#">Gift Cards</a></li>
+        <li><a href="#">Lojas</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

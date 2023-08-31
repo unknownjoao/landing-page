@@ -171,6 +171,7 @@ body {
     }
 
     .header-mobile button {
+        cursor: pointer;
         background: transparent;
         border: none;
     }
@@ -238,5 +239,28 @@ body {
         left: 0;
         width: 100%;
         z-index: -1;
+    }
+
+    /* MANU SCREEN */
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-mobile button{
+        cursor: pointer;
+    }
+
+    .nav-menu a {
+        display: flex;
+        padding: 18px 0 14px 25px;
+        color: white;
+        border-bottom: 1px solid #29292E;
+        text-decoration: none;
+        border-left: 5px solid transparent;
+    }
+
+    .nav-menu a:hover{
+        border-left: 5px solid#8257E5;
     }
 }
